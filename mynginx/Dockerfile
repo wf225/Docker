@@ -1,2 +1,2 @@
-FROM nginx
-RUN echo '<h1>Hello, Docker!</h1>' > /usr/share/nginx/html/index.html
+FROM ubuntu
+COPY sdk_package.zip /usr/xiaomi/
