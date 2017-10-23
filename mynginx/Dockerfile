@@ -1,2 +1,2 @@
-FROM ubuntu
-COPY sdk_package.zip /usr/xiaomi/
+FROM ubuntu:14.04
+COPY sdk/sdk_package.zip /usr/xiaomi/
